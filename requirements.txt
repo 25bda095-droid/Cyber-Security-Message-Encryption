@@ -1,10 +1,3 @@
 streamlit
 pycryptodome
-reflex
-pandas
-numpy
-joblib
-PyPDF2
-matplotlib
-seaborn
-scikit-learn
+
