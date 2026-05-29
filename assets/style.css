@@ -1,0 +1,22 @@
+.main-header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.stButton > button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.key-container {
+    background-color: #f0f2f6;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
