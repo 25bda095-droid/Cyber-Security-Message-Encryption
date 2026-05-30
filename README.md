@@ -467,13 +467,13 @@ The message is not converted to Base64 before encryption. Base64 is applied afte
 │         └───────────────┬───────────────┘                            │
 │                         ▼                                            │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ AES-CBC Encryption                          │                      │
-│  │ Uses: Message + AES Key + IV                │                      │
+│  │ AES-CBC Encryption                         │                      │
+│  │ Uses: Message + AES Key + IV               │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ Ciphertext Bytes                            │                      │
+│  │ Ciphertext Bytes                           │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
@@ -501,13 +501,13 @@ The message is not converted to Base64 before encryption. Base64 is applied afte
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ AES-CBC Decryption                          │                      │
-│  │ Uses Same AES Key and Same IV               │                      │
+│  │ AES-CBC Decryption                         │                      │
+│  │ Uses Same AES Key and Same IV              │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ Remove Padding                              │                      │
+│  │ Remove Padding                             │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
@@ -567,7 +567,7 @@ The message is not converted to Base64 before encryption. Base64 is applied afte
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ Import Public Key                           │                      │
+│  │ Import Public Key                          │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
@@ -583,7 +583,7 @@ The message is not converted to Base64 before encryption. Base64 is applied afte
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ Ciphertext Bytes                            │                      │
+│  │ Ciphertext Bytes                           │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
@@ -612,7 +612,7 @@ The message is not converted to Base64 before encryption. Base64 is applied afte
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ Import Private Key                          │                      │
+│  │ Import Private Key                         │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
@@ -622,7 +622,7 @@ The message is not converted to Base64 before encryption. Base64 is applied afte
 │                       │                                              │
 │                       ▼                                              │
 │  ┌────────────────────────────────────────────┐                      │
-│  │ Decrypted Bytes                             │                      │
+│  │ Decrypted Bytes                            │                      │
 │  └────────────────────┬───────────────────────┘                      │
 │                       │                                              │
 │                       ▼                                              │
